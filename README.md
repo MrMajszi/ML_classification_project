@@ -7,9 +7,9 @@ The following variables are included:
 1) ID- Unique passenger identifier (Numeric)
 2) Gender- Gender of the passenger (Boolean)
 3) Age- Age of the passenger (Numeric)
-4) Customer Type- Type of airline customer: First-time/Returning (Boolean)
-5) Type of Travel- Purpose of the flight: Business/Personal (Boolean)
-6) Class- Travel class in the airplane for the passenger seat: Economy/Economy Plus/Business (Categorical)
+4) Customer Type- Type of airline customer: First-time [0] /Returning [1] (Boolean)
+5) Type of Travel- Purpose of the flight: Personal [0] / Business [1] (Boolean)
+6) Class- Travel class in the airplane for the passenger seat: Economy [1] /Economy Plus [2] /Business [3] (Categorical)
 7) Flight Distance- Flight distance in miles (Numeric)
 8) Departure Delay- Flight departure delay in minutes (Numeric)
 9) Arrival Delay- Flight arrival delay in minutes (Numeric)
@@ -27,6 +27,6 @@ The following variables are included:
 21) In-flight Wifi Service- Satisfaction level with the in-flight Wifi service: 1- lowest, 5-highest, 0 means "not applicable" (Categorical)
 22) In-flight Entertainment- Satisfaction level with the in-flight entertainment: 1- lowest, 5-highest, 0 means "not applicable" (Categorical)
 23) Baggage Handling- Satisfaction level with the baggage handling from the airline: 1- lowest, 5-highest, 0 means "not applicable" (Categorical)
-24) Satisfaction-Overall satisfaction level with the airline: Satisfied/Neutral or unsatisfied (Boolean)
+24) Satisfaction-Overall satisfaction level with the airline: Neutral or unsatisfied [0] / Satsfied [1] (Boolean)
     
 Source: https://www.kaggle.com/datasets/mysarahmadbhat/airline-passenger-satisfaction/data 
